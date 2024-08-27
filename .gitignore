@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ignore migrations
+*/migrations/*
+
+# Ignore static and media files
+static/
+media/
+
+# Ignore local settings
+settings_local.py
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore the coverage tool
+.coverage
+coverage.xml
+htmlcov/
+.coverage.*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled files from Cython
+*.c
+*.cpp
+*.dll
+*.dylib
+*.exe
+*.o
+*.obj
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore generated files by Django (e.g., secret key file)
+.secret
+
+# Ignore the compiled translation files
+*.mo
+
+# Ignore node_modules for front-end dependencies
+node_modules/
